@@ -285,16 +285,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## ��‍�� Author
-
-**Rudra Tiwari**  
-- �� University of Melbourne
-- �� GenAI Competition Participant
-- 💼 Data Science & AI Enthusiast
-- 📧 [Contact Information]
-
----
-
 ## 🙏 Acknowledgments
 
 - **UoM DSCubed** and **UWA DSC** for organizing the GenAI Competition
