@@ -63,7 +63,7 @@ This **AI-Powered Data Cleaning Agent** revolutionizes data preprocessing by com
 
 ## 🚀 Quick Start
 
-### �� **Option 1: Interactive Google Colab Demo** (Recommended for Judges)
+### �� **Interactive Google Colab Demo**
 
 **Perfect for Hackathon Presentations and Live Demos!**
 
@@ -74,53 +74,6 @@ This **AI-Powered Data Cleaning Agent** revolutionizes data preprocessing by com
 3. **�� Upload your dataset** using the built-in file uploader
 4. **▶️ Run each cell step by step** to see the AI cleaning process
 5. **💾 Download your cleaned data** and reports
-
-**🎯 What Judges Will See:**
-- **Step 1**: Upload and examine your dataset
-- **Step 2**: AI-powered data quality analysis with visualizations
-- **Step 3**: Intelligent cleaning suggestions from OpenAI
-- **Step 4**: Automated data cleaning process
-- **Step 5**: Beautiful before/after comparison charts
-- **Step 6**: Professional cleaning reports and insights
-
-### 💻 **Option 2: Local Installation**
-
-```bash
-# Clone the repository
-git clone https://github.com/Rudra-Tiwari-codes/Data-Cleaning-Agent.git
-cd Data-Cleaning-Agent
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up OpenAI API key (see setup guide below)
-# Run the complete demo
-python complete_demo.py
-```
-
-### �� **Option 3: Jupyter Notebook Demo**
-
-```bash
-# Start Jupyter Notebook
-jupyter notebook
-
-# Open main_clean.ipynb for comprehensive demo
-# Or interactive_demo.ipynb for step-by-step walkthrough
-```
-
----
-
-
-### 🔧 **Core Modules**
-
-- **`data_cleaning_agent.py`**: Core cleaning engine with traditional methods
-- **`ai_data_cleaning.py`**: AI-enhanced cleaning with OpenAI integration
-- **`data_cleaning_ui.py`**: User interface and visualization components
-- **`features/`**: Specialized modules for health data analysis
-- **`config.py`**: Configuration management with environment variables
-
----
-
 ## 🎯 Demo Scenarios
 
 ### 🏥 **Health Data Analysis**
@@ -179,16 +132,6 @@ cleaning_code = agent.generate_cleaning_code(df)
    ```bash
    python test_env.py
    ```
-
-### �� **Dependencies**
-```bash
-pip install pandas numpy matplotlib seaborn openpyxl
-pip install langchain langchain-openai python-dotenv
-pip install scikit-learn
-```
-
----
-
 
 ## �� Future Enhancements
 
