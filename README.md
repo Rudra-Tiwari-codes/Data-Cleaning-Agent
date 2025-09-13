@@ -69,7 +69,7 @@ This **AI-Powered Data Cleaning Agent** revolutionizes data preprocessing by com
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
-1. **�� Open the interactive notebook**: [`interactive_demo.ipynb`](interactive_demo.ipynb)
+1. **�� Open the interactive notebook**: [`colab_demo.ipynb`](colab_demo.ipynb)
 2. **☁️ Upload to Google Colab**: Click the Colab badge above
 3. **�� Upload your dataset** using the built-in file uploader
 4. **▶️ Run each cell step by step** to see the AI cleaning process
@@ -189,54 +189,6 @@ pip install scikit-learn
 
 ---
 
-## �� Demo Files
-
-| File | Purpose | Best For |
-|------|---------|----------|
-| [`complete_demo.py`](complete_demo.py) | Full feature demonstration | Local execution |
-| [`interactive_demo.ipynb`](interactive_demo.ipynb) | Step-by-step walkthrough | Google Colab, Judges |
-| [`main_clean.ipynb`](main_clean.ipynb) | Comprehensive analysis | Jupyter Notebook |
-| [`test_env.py`](test_env.py) | Environment testing | Setup verification |
-
----
-
-## 🏆 Competition Highlights
-
-### 🎯 **Innovation Points**
-- **AI-First Design**: First data cleaning tool to use GPT-4o-mini for intelligent suggestions
-- **Health Data Focus**: Specialized for WHO datasets and global health analysis
-- **Production Ready**: Modular architecture suitable for real-world deployment
-- **User Experience**: Intuitive interface with beautiful visualizations
-
-### 🚀 **Technical Excellence**
-- **Scalable Architecture**: Handles datasets of various sizes efficiently
-- **Error Handling**: Robust error management and user feedback
-- **Documentation**: Comprehensive code documentation and setup guides
-- **Testing**: Built-in testing and validation mechanisms
-
-### 🌍 **Real-World Impact**
-- **Healthcare Applications**: Supports global health data analysis
-- **Research Enablement**: Accelerates data preprocessing for researchers
-- **Business Intelligence**: Streamlines data cleaning for business analytics
-- **Educational Value**: Demonstrates AI applications in data science
-
----
-
-## 📈 Performance Metrics
-
-### ⚡ **Efficiency**
-- **Processing Speed**: 10x faster than manual cleaning
-- **Accuracy**: 95%+ accuracy in issue detection
-- **Memory Usage**: Optimized for large datasets
-- **API Efficiency**: Cost-effective OpenAI usage
-
-### 🎯 **Quality**
-- **Data Integrity**: Preserves original data relationships
-- **Cleaning Precision**: Targeted cleaning without over-processing
-- **Visualization Quality**: Professional-grade charts and reports
-- **User Satisfaction**: Intuitive and user-friendly interface
-
----
 
 ## �� Future Enhancements
 
@@ -254,38 +206,8 @@ pip install scikit-learn
 
 ---
 
-## 📚 Documentation
 
-- **[Setup Guide](SETUP_OPENAI.md)**: Detailed OpenAI API configuration
-- **[API Reference](docs/api.md)**: Complete API documentation
-- **[Examples](examples/)**: Sample datasets and use cases
-- **[Troubleshooting](docs/troubleshooting.md)**: Common issues and solutions
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### �� **Bug Reports**
-Found a bug? Please [open an issue](https://github.com/Rudra-Tiwari-codes/Data-Cleaning-Agent/issues) with:
-- Detailed description
-- Steps to reproduce
-- Expected vs actual behavior
-- System information
-
-### 💡 **Feature Requests**
-Have an idea? We'd love to hear it! Please [create a feature request](https://github.com/Rudra-Tiwari-codes/Data-Cleaning-Agent/issues/new?template=feature_request.md).
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **UoM DSCubed** and **UWA DSC** for organizing the GenAI Competition
 - **OpenAI** for providing the GPT-4o-mini API
