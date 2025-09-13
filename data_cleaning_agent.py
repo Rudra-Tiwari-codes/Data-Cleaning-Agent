@@ -73,12 +73,17 @@ class DataCleaningAgent:
                     # Intelligent strategy selection
                     if df_cleaned[column].dtype in ['int64', 'float64']:
                         # Numeric: use median for skewed, mean for normal
-                        if df_cleaned[column].skew() > 1:
-                            fill_value = df_cleaned[column].median()
-                            method = 'median'
-                        else:
-                            fill_value = df_cleaned[column].mean()
-                            method = 'mean'
+                        try:
+                            if df_cleaned[column].skew() > 1:
+                                fill_value = df_cleaned[column].median()
+                                method = 'median'
+                            else:
+                                fill_value = df_cleaned[column].mean()
+                                method = 'mean'
+                        except:
+                            # If all values are NaN, use 0 for numeric
+                            fill_value = 0
+                            method = 'zero_fill'
                     else:
                         # Categorical: use mode
                         fill_value = df_cleaned[column].mode().iloc[0] if not df_cleaned[column].mode().empty else 'Unknown'
@@ -436,7 +441,7 @@ class DataCleaningAgent:
         self.analyze_data_quality(df)
         
         # Step 2: Clean missing values
-        df_cleaned = self.clean_missing_values(df_cleaned if 'df_cleaned' in locals() else df, strategy='auto')
+        df_cleaned = self.clean_missing_values(df, strategy='auto')
         
         # Step 3: Remove duplicates
         df_cleaned = self.remove_duplicates(df_cleaned)
